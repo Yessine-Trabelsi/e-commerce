@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>e-commerce</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="webtitle">
+      <h1>My Simple E-Commerce Store</h1>
+      <nav>
+        <div>
+          <span><a href="#products">Products</a></span> &nbsp;| &nbsp;
+          <span><a href="#cart">Cart</a></span> &nbsp;| &nbsp;
+          <span><a href="#contact">Contact</a></span>
+        </div>
+        <p>cart:<span id="cartcounter">0</span></p>
+      </nav>
+    </header>
+
+    <br />
+    <main>
+      <section>
+        <h1>Products</h1>
+        <div id="products">
+        
+        </div>
+      </section>
+
+      <hr />
+      <section id="cart">
+        <h2>Shopping Cart</h2>
+        <p>Your cart is empty</p>
+      </section>
+      <hr />
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="Name">Name:</label>
+          <input type="text" id="Name" required />
+          <br />
+          <label for="Email">Email:</label>
+          <input type="text" id="Email" required />
+          <br />
+          <label for="message">Message:</label>
+          <textarea rows="4"></textarea>
+          <br />
+          <label>Gender:</label>
+          <select>
+            <option selected disabled>select element</option>
+            <option>male</option>
+            <option>female</option>
+          </select>
+          <br />
+          <button type="submit">send</button>
+        </form>
+      </section>
+      <footer>
+        <p>&copy; 2025 My Simple E-Commerce Store</p>
+      </footer>
+    </main>
+    <script src="script2.js"></script>
+  </body>
+</html>
