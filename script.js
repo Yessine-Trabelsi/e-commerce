@@ -35,7 +35,7 @@ products.forEach((p) => {
   s.classList.add("product-card");
   s.innerHTML = `
             <div class="product-body">
-              <img src="images/${p.picture}" width=150/>
+              <img src="${p.picture}" width=150/>
               <h2>${p.name}</h2>
               <p>${p.description}</p>
               <p>price=$${p.price}</p>
@@ -64,6 +64,7 @@ document.querySelectorAll(".cart-btn").forEach((btn) => {
     cartv.textContent = cart;
   });
 });
+
 
 
 
